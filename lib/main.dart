@@ -27,9 +27,13 @@ class HomePage extends StatelessWidget {
       body: Stack(
         children: [
           Expanded(
-            child: Image.asset(
-              'assets/images/background.png',
-              fit: BoxFit.fill,
+            child: SizedBox(
+              height: double.infinity,
+              width: double.infinity,
+              child: Image.asset(
+                'assets/images/background.png',
+                fit: BoxFit.fill,
+              ),
             ),
           ),
           //   Column(
