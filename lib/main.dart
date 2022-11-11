@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:coffeeappui/constants/colors.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Coffe App',
+      title: 'Coffee App',
       theme: ThemeData(),
       home: const HomePage(),
     );
@@ -24,57 +25,37 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(
+      backgroundColor: backgroundColor1,
+      body: Column(
         children: [
-          Expanded(
-            child: SizedBox(
-              height: double.infinity,
-              width: double.infinity,
-              child: Image.asset(
-                'assets/images/background.png',
+          Container(
+            height: double.infinity,
+            width: double.infinity,
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/images/image1.png'),
                 fit: BoxFit.fill,
               ),
             ),
+            child: Column(
+              children: const [],
+            ),
           ),
-          //   Column(
-          //     children: [
-          //       Row(
-          //         children: [
-          //           Container(
-          //             height: 50.0,
-          //             width: 70.0,
-          //             decoration: BoxDecoration(
-          //               borderRadius: BorderRadius.circular(20.0),
-          //               color: Colors.white,
-          //             ),
-          //             child: IconButton(
-          //               onPressed: () {},
-          //               icon: const Icon(Icons.arrow_back),
-          //             ),
-          //           ),
-          //           Image.asset('assets/images/image1.png'),
-          //         ],
-          //       ),
-          //       Row(
-          //         children: [
-          //           Image.asset('assets/images/image2.png'),
-          //           Column(
-          //             children: const [
-          //               Text('Latte'),
-          //               Text('Coffe Beans'),
-          //               Text('Milk'),
-          //               Text('Sugar'),
-          //               Text('Mellows'),
-          //             ],
-          //           ),
-          //         ],
-          //       ),
-          //       Image.asset('assets/images/image3.png'),
-          //       Image.asset('assets/images/image4.png'),
-          //     ],
-          //   ),
         ],
       ),
     );
   }
 }
+
+// Container(
+//                     height: 50.0,
+//                     width: 70.0,
+//                     decoration: BoxDecoration(
+//                       borderRadius: BorderRadius.circular(20.0),
+//                       color: Colors.white,
+//                     ),
+//                     child: IconButton(
+//                       onPressed: () {},
+//                       icon: const Icon(Icons.arrow_back),
+//                     ),
+//                   ),

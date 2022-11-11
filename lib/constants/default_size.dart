@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DefaultSize {
-  static late MediaQueryData _mediaQueryData;
+  late MediaQueryData _mediaQueryData;
   static late double screenWidth;
   static late double screenHeight;
   static late double defaultSize;
@@ -16,11 +16,11 @@ class DefaultSize {
 }
 
 double getProportionalScreenHeight(double inputHeight) {
-  double screenHeight = DefaultSize.screenHeight;
+  late double screenHeight = DefaultSize.screenHeight;
   return (inputHeight / 812.0) * screenHeight;
 }
 
 double getProportionalScreenWidth(double inputWidth) {
-  double screenWidth = DefaultSize.screenHeight;
+  late double screenWidth = DefaultSize.screenHeight;
   return (inputWidth / 375.0) * screenWidth;
 }
