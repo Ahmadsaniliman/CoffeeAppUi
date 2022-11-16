@@ -16,11 +16,11 @@ class DefaultSize {
 }
 
 double getProportionalScreenHeight(double inputHeight) {
-  late double screenHeight = DefaultSize.screenHeight;
+  double screenHeight = DefaultSize.screenHeight;
   return (inputHeight / 812.0) * screenHeight;
 }
 
 double getProportionalScreenWidth(double inputWidth) {
-  late double screenWidth = DefaultSize.screenHeight;
+  double screenWidth = DefaultSize.screenWidth;
   return (inputWidth / 375.0) * screenWidth;
 }
