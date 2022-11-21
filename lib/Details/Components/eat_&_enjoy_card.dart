@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:neww/Constants/colors.dart';
+import 'package:neww/Constants/routes.dart';
 
 class EatAndEnjoyCard extends StatelessWidget {
   const EatAndEnjoyCard({
@@ -64,6 +65,10 @@ class EatAndEnjoyCard extends StatelessWidget {
                       color: Colors.black,
                       borderRadius: BorderRadius.circular(20.0),
                     ),
+                    child: const Icon(
+                      Icons.menu,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
                 Positioned(
@@ -79,16 +84,25 @@ class EatAndEnjoyCard extends StatelessWidget {
                       ),
                       const SizedBox(height: 10.0),
                       Row(
-                        children: const [
-                          Text(
+                        children: [
+                          const Text(
                             'Check Menu',
                             style: TextStyle(
                               fontSize: 20.0,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
-                          SizedBox(width: 30.0),
-                          Icon(Icons.arrow_forward),
+                          const SizedBox(width: 30.0),
+                          IconButton(
+                            onPressed: () {
+                              Navigator.of(context).pushNamed(
+                                cartRoute,
+                              );
+                            },
+                            icon: const Icon(
+                              Icons.arrow_forward,
+                            ),
+                          )
                         ],
                       ),
                     ],

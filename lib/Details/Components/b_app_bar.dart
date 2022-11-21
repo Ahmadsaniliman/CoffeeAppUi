@@ -10,40 +10,14 @@ class DetailsBuildAppBar extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Row(
-          children: [
-            Image.asset(
-              'assets/images/Vector 963 (1).png',
-              width: 20.0,
-            ),
-            const SizedBox(width: 10.0),
-            const Text(
-              'Dezzert',
-              style: TextStyle(
-                color: Colors.white,
-              ),
-            ),
-          ],
+        Image.asset(
+          'assets/images/Group 1171274815.png',
+          width: 100.0,
         ),
-        Container(
-          padding: const EdgeInsets.all(10.0),
-          height: 40.0,
-          width: 90.0,
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20.0),
-            border: Border.all(color: Colors.white),
-          ),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              const Icon(Icons.add, color: Colors.white),
-              Image.asset(
-                'assets/images/Rectangle 41864.png',
-              ),
-            ],
-          ),
-        ),
+        Image.asset('assets/images/Group 1171274821.png',width:100.0,),
       ],
     );
   }
 }
+
+

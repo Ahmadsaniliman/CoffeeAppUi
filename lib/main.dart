@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:neww/Cart/cart.dart';
+import 'package:neww/Constants/routes.dart';
 import 'package:neww/Details/details.dart';
 
 void main() {
@@ -15,6 +17,9 @@ class MyApp extends StatelessWidget {
       title: 'Coffee App',
       theme: ThemeData(),
       home: const DetailsPage(),
+      routes: {
+          cartRoute : (context) => const CartViewPage(),
+      },
     );
   }
 }

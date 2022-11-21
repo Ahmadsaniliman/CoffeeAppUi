@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:neww/Constants/colors.dart';
+import 'package:neww/Constants/routes.dart';
 import 'package:neww/Details/Components/item_card.dart';
 
 class BottomPart extends StatelessWidget {
@@ -30,7 +31,16 @@ class BottomPart extends StatelessWidget {
                   color: backgroundColor,
                   borderRadius: BorderRadius.circular(15),
                 ),
-                child: const Icon(Icons.arrow_forward_ios),
+                child: IconButton(
+                  onPressed: () {
+                    Navigator.of(context).pushNamed(
+                      cartRoute,
+                    );
+                  },
+                  icon: const Icon(
+                    Icons.arrow_forward_ios,
+                  ),
+                ),
               ),
             ],
           ),
