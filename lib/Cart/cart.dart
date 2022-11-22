@@ -41,10 +41,18 @@ class CartViewPage extends StatelessWidget {
                 ),
               ],
             ),
-            Image.asset('assets/images/image 6344529 (1).png'),
-            Image.asset(
-              'assets/images/image 6344525 (1)png',
-              width: 150.0,
+            Row(
+              children: [
+                Stack(
+                  children: [
+                    Image.asset('assets/images/image 6344529 (1).png'),
+                    Image.asset(
+                      'assets/images/image 6344525 (1)png',
+                      width: 150.0,
+                    ),
+                  ],
+                ),
+              ],
             ),
           ],
         ),
