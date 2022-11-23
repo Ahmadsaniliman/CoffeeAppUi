@@ -26,6 +26,7 @@ class CartViewPage extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 25.0,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             ),
