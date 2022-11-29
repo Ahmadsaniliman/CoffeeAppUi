@@ -70,6 +70,7 @@ class HomePage extends StatelessWidget {
                           //   width: 200.0,
                         ),
                         Positioned(
+                          top:0,
                           right: 0,
                           child: Padding(
                             padding: const EdgeInsets.only(
