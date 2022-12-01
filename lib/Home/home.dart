@@ -67,10 +67,11 @@ class HomePage extends StatelessWidget {
                       children: [
                         Image.asset(
                           'assets/images/image2.png',
-                          //   width: 200.0,
+                          width: 200.0,
+                          height: 200.0,
                         ),
                         Positioned(
-                          top:0,
+                          top: 0,
                           right: 0,
                           child: Padding(
                             padding: const EdgeInsets.only(
@@ -80,10 +81,33 @@ class HomePage extends StatelessWidget {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: const [
-                                Text('Name'),
-                                Text('Name'),
-                                Text('Name'),
-                                Text('Name'),
+                                Text(
+                                  'Name',
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                Text(
+                                  'Name',
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 15.0,
+                                  ),
+                                ),
+                                Text(
+                                  'Name',
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 15.0,
+                                  ),
+                                ),
+                                Text(
+                                  'Name',
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 15.0,
+                                  ),
+                                ),
                               ],
                             ),
                           ),
