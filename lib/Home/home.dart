@@ -85,6 +85,7 @@ class HomePage extends StatelessWidget {
                                   'Name',
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
+                                    fontSize: 15.0,
                                   ),
                                 ),
                                 Text(
