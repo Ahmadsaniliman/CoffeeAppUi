@@ -129,11 +129,5 @@ class HomePage extends StatelessWidget {
   }
 }
 
-class Function12 extends StatelessWidget {
-  const Function12({Key? key}) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
+
