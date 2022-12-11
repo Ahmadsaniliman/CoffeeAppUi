@@ -17,11 +17,18 @@ class BottomPart extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const Text(
-                'New Items',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 25.0,
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).pushNamed(
+                    middlePageRoute,
+                  );
+                },
+                child: const Text(
+                  'New Items',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 25.0,
+                  ),
                 ),
               ),
               Container(

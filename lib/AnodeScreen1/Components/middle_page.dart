@@ -10,6 +10,7 @@ class MiddlePageView extends StatelessWidget {
     double fem = MediaQuery.of(context).size.width / baseWidth;
     // double ffem = fem * 0.97;
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Container(
         height: double.infinity,
         width: double.infinity,
@@ -24,9 +25,9 @@ class MiddlePageView extends StatelessWidget {
         child: Stack(
           children: [
             Padding(
-              padding: const EdgeInsets.all(15.0),
+              padding: const EdgeInsets.all(25.0),
               child: Positioned(
-                child: InkWell(
+                child: GestureDetector(
                   onTap: () {
                     Navigator.of(context).pushNamed(
                       detailsRoute,
@@ -49,18 +50,19 @@ class MiddlePageView extends StatelessWidget {
               ),
             ),
             //
+
             //
             Positioned(
               // image63445212Cq (1:1529)
-              left: 52.1389160156 * fem,
-              top: -20 * fem,
+              left: -50 * fem,
+              top: -70 * fem,
               child: Align(
                 child: SizedBox(
-                  width: 508.06 * fem,
-                  height: 508.06 * fem,
+                  width: 548.06 * fem,
+                  height: 548.06 * fem,
                   child: Image.asset(
-                    'assets/images/image1.png',
-                    fit: BoxFit.contain,
+                    'assets/images/food.png',
+                    // fit: BoxFit.contain,
                   ),
                 ),
               ),
@@ -68,25 +70,49 @@ class MiddlePageView extends StatelessWidget {
             //
             //
             //
-            Positioned(
-              // image6344522Wdo (1:1530)
-              left: -15.5065917969 * fem,
-              //   left: -45.5065917969 * fem,
-              // top: 484.5712890625 * fem,
-              top: 350,
-              child: Align(
-                child: SizedBox(
-                  width: 400.18 * fem,
-                  height: 400.45 * fem,
-                  //   width: 524.18 * fem,
-                  //   height: 523.45 * fem,
-                  child: Image.asset(
-                    'assets/images/image3.png',
-                    // fit: BoxFit.contain,
-                    // width: 200,
+            Stack(
+              children: [
+                Positioned(
+                  // image6344522Wdo (1:1530)
+                  //   left: -15.5065917969 * fem,
+                  left: -35.5065917969 * fem,
+                  // top: 484.5712890625 * fem,
+                  top: 350,
+                  child: Align(
+                    child: SizedBox(
+                      //   width: 400.18 * fem,
+                      //   height: 400.45 * fem,
+                      width: 524.18 * fem,
+                      height: 523.45 * fem,
+                      child: Image.asset(
+                        'assets/images/image 6344525 (1).png',
+                        // fit: BoxFit.contain,
+                        // width: 200,
+                      ),
+                    ),
                   ),
                 ),
-              ),
+                Positioned(
+                  // image6344522Wdo (1:1530)
+                  //   left: -15.5065917969 * fem,
+                  left: -45.5065917969 * fem,
+                  // top: 484.5712890625 * fem,
+                  top: 350,
+                  child: Align(
+                    child: SizedBox(
+                      //   width: 400.18 * fem,
+                      //   height: 400.45 * fem,
+                      width: 524.18 * fem,
+                      height: 523.45 * fem,
+                      child: Image.asset(
+                        'assets/images/Rectangle (8).png',
+                        // fit: BoxFit.contain,
+                        // width: 200,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
             ),
           ],
         ),

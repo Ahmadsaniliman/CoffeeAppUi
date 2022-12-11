@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:neww/AnodeScreen1/Components/middle_page.dart';
+import 'package:neww/AnodeScreen1/anode_screen1.dart';
 import 'package:neww/Cart/cart.dart';
 import 'package:neww/Constants/routes.dart';
 import 'package:neww/Details/details.dart';
@@ -22,6 +24,7 @@ class MyApp extends StatelessWidget {
         homeRoute: (context) => const HomePage(),
         cartRoute: (context) => const CartViewPage(),
         detailsRoute: (context) => const DetailsPage(),
+        middlePageRoute: (context) => const MiddlePageView(),
       },
     );
   }

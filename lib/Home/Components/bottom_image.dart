@@ -16,7 +16,7 @@ class BottomImage extends StatelessWidget {
       //   top: 856.5967254639 * fem,
 
       //   top: 484.5712890625 * fem,
-      left: 70,
+      left: 100,
       bottom: -130,
       child: Align(
         child: SizedBox(
