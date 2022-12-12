@@ -120,3 +120,379 @@ class MiddlePageView extends StatelessWidget {
     );
   }
 }
+
+// Positioned(
+//   // image6344521KE1 (1:762)
+//   left:  0*fem,
+//   top:  0*fem,
+//   child:
+// Align(
+//   child:
+// SizedBox(
+//   width:  250.56*fem,
+//   height:  250.56*fem,
+//   child:
+// ClipRRect(
+//   borderRadius:  BorderRadius.circular(143.3743591309*fem),
+//   child:
+// Image.network(
+//   [Image url]
+// ),
+// ),
+// ),
+// ),
+// ),
+
+// second image
+// Positioned(
+//   // image6344522jDB (1:763)
+//   left:  0*fem,
+//   top:  0*fem,
+//   child:
+// Align(
+//   child:
+// SizedBox(
+//   width:  228.24*fem,
+//   height:  225.69*fem,
+//   child:
+// ClipRRect(
+//   borderRadius:  BorderRadius.circular(158.2632293701*fem),
+//   child:
+// Image.network(
+//   [Image url]
+//   fit:  BoxFit.cover,
+// ),
+// ),
+// ),
+// ),
+// ),
+
+// bottom part
+
+// Positioned(
+//   // image6344525bjF (1:759)
+//   left:  0*fem,
+//   top:  108.3800048828*fem,
+//   child:
+// Align(
+//   child:
+// SizedBox(
+//   width:  453.92*fem,
+//   height:  453.92*fem,
+//   child:
+// ClipRRect(
+//   borderRadius:  BorderRadius.circular(228.2355957031*fem),
+//   child:
+// Image.network(
+//   [Image url]
+//   fit:  BoxFit.cover,
+// ),
+// ),
+// ),
+// ),
+// ),
+// Positioned(
+//   // rectangle7Sh (1:760)
+//   left:  73.5258789062*fem,
+//   top:  337.4683227539*fem,
+//   child:
+// Align(
+//   child:
+// SizedBox(
+//   width:  157.22*fem,
+//   height:  153.42*fem,
+//   child:
+// Image.network(
+//   [Image url]
+// ),
+// ),
+// ),
+// ),
+// Positioned(
+//   // rectangle2Zf (1:761)
+//   left:  116.66796875*fem,
+//   top:  0*fem,
+//   child:
+// Align(
+//   child:
+// SizedBox(
+//   width:  348.68*fem,
+//   height:  362.63*fem,
+//   child:
+// Image.network(
+//   [Image url]
+// ),
+// ),
+// ),
+// ),
+
+// second page
+
+// Positioned(
+//   // group1171274859o93 (1:794)
+//   left:  298.3637695312*fem,
+//   top:  321.3149414062*fem,
+//   child:
+// ClipRect(
+//   child:
+// BackdropFilter(
+//   filter:  ImageFilter.blur (
+//     sigmaX:  10.2004737854*fem,
+//     sigmaY:  10.2004737854*fem,
+//   ),
+//   child:
+// Container(
+//   width:  174.68*fem,
+//   height:  79.05*fem,
+//   decoration:  BoxDecoration (
+//     borderRadius:  BorderRadius.circular(12.7505922318*fem),
+//     border:  Border (
+//     ),
+//     gradient:  LinearGradient (
+//       begin:  Alignment(1, 1.26),
+//       end:  Alignment(-0.656, -1.122),
+//       colors:  <Color>[Color(0x66111111), Color(0x661d1d1d)],
+//       stops:  <double>[0, 1],
+//     ),
+//   ),
+//   child:
+// Center(
+//   child:
+// Text(
+//   'Apple Pie',
+//   style:  SafeGoogleFont (
+//     'Plus Jakarta Display',
+//     fontSize:  17.8508300781*ffem,
+//     fontWeight:  FontWeight.w700,
+//     height:  1.2575*ffem/fem,
+//     color:  Color(0xffffffff),
+//   ),
+// ),
+// ),
+// ),
+// ),
+// ),
+// ),
+
+// side image
+
+// Positioned(
+//   // image6344526rdo (1:785)
+//   left:  266.4873046875*fem,
+//   top:  623.5039672852*fem,
+//   child:
+// Align(
+//   child:
+// SizedBox(
+//   width:  391.44*fem,
+//   height:  387.62*fem,
+//   child:
+// ClipRRect(
+//   borderRadius:  BorderRadius.circular(186.6464691162*fem),
+//   child:
+// Image.network(
+//   [Image url]
+// ),
+// ),
+// ),
+// ),
+// ),
+
+// bootom image
+
+// Positioned(
+//   // image6344521vHX (1:803)
+//   left:  63.75390625*fem,
+//   top:  855.5647583008*fem,
+//   child:
+// Align(
+//   child:
+// SizedBox(
+//   width:  250.56*fem,
+//   height:  250.56*fem,
+//   child:
+// ClipRRect(
+//   borderRadius:  BorderRadius.circular(143.3743591309*fem),
+//   child:
+// Image.network(
+//   [Image url]
+// ),
+// ),
+// ),
+// ),
+// ),
+
+// middle image
+
+// Positioned(
+//   // group1171274812rGR (1:787)
+//   left:  0*fem,
+//   top:  379.9677124023*fem,
+//   child:
+// Container(
+//   width:  323.87*fem,
+//   height:  323.87*fem,
+//   decoration:  BoxDecoration (
+//     borderRadius:  BorderRadius.circular(173.4080505371*fem),
+//     image:  DecorationImage (
+//       fit:  BoxFit.cover,
+//       image:  NetworkImage (
+//         [Image url]
+//       ),
+//     ),
+//     boxShadow:  [
+//       BoxShadow(
+//         color:  Color(0xff000000),
+//         offset:  Offset(51.002368927*fem, 43.3520126343*fem),
+//         blurRadius:  47.177192688*fem,
+//       ),
+//       BoxShadow(
+//         color:  Color(0xd8000000),
+//         offset:  Offset(12.7505922318*fem, 17.8508300781*fem),
+//         blurRadius:  8.9254150391*fem,
+//       ),
+//     ],
+//   ),
+//   child:
+// Stack(
+//   children:  [
+// Positioned(
+//   // ellipse7135UHo (1:789)
+//   left:  75.7407226562*fem,
+//   top:  194.4999389648*fem,
+//   child:
+// ImageFiltered(
+//   imageFilter:  ImageFilter.blur (
+//     sigmaX:  13.0782604218*fem,
+//     sigmaY:  13.0782604218*fem,
+//   ),
+//   child:
+// Align(
+//   child:
+// SizedBox(
+//   width:  88.66*fem,
+//   height:  88.66*fem,
+//   child:
+// Container(
+//   decoration:  BoxDecoration (
+//     borderRadius:  BorderRadius.circular(44.3278961182*fem),
+//     color:  Color(0xff000000),
+//   ),
+// ),
+// ),
+// ),
+// ),
+// ),
+
+// page 3
+
+// Positioned(
+//   // image63445389rR (1:819)
+//   left:  0*fem,
+//   top:  0*fem,
+//   child:
+// Align(
+//   child:
+// SizedBox(
+//   width:  842.64*fem,
+//   height:  842.64*fem,
+//   child:
+// ClipRRect(
+//   borderRadius:  BorderRadius.circular(306.0142211914*fem),
+//   child:
+// Image.network(
+//   [Image url]
+// ),
+// ),
+// ),
+// ),
+// ),
+
+//
+
+// Positioned(
+//   // group1171274857Pzy (1:841)
+//   left:  242.1467285156*fem,
+//   top:  393.8787536621*fem,
+//   child:
+// ClipRect(
+//   child:
+// BackdropFilter(
+//   filter:  ImageFilter.blur (
+//     sigmaX:  10.2004737854*fem,
+//     sigmaY:  10.2004737854*fem,
+//   ),
+//   child:
+// Container(
+//   width:  215.49*fem,
+//   height:  79.05*fem,
+//   decoration:  BoxDecoration (
+//     borderRadius:  BorderRadius.circular(12.7505922318*fem),
+//     border:  Border (
+//     ),
+//     gradient:  LinearGradient (
+//       begin:  Alignment(1, 1.26),
+//       end:  Alignment(-0.656, -1.122),
+//       colors:  <Color>[Color(0x66111111), Color(0x661d1d1d)],
+//       stops:  <double>[0, 1],
+//     ),
+//   ),
+//   child:
+// Center(
+//   child:
+// Text(
+//   'Strawberry Shake',
+//   style:  SafeGoogleFont (
+//     'Plus Jakarta Display',
+//     fontSize:  17.8508300781*ffem,
+//     fontWeight:  FontWeight.w700,
+//     height:  1.2575*ffem/fem,
+//     color:  Color(0xffffffff),
+//   ),
+// ),
+// ),
+// ),
+// ),
+// ),
+// ),
+
+// Center(
+//   // image6344525d7P (1:818)
+//   child:
+// SizedBox(
+//   width:  302.8*fem,
+//   height:  302.8*fem,
+//   child:
+// ClipRRect(
+//   borderRadius:  BorderRadius.circular(228.2355957031*fem),
+//   child:
+// Image.network(
+//   [Image url]
+//   fit:  BoxFit.cover,
+// ),
+// ),
+// ),
+// ),
+
+// bottom
+
+// Positioned(
+//   // image6344528zE5 (1:844)
+//   left:  388.8933105469*fem,
+//   top:  923.1429138184*fem,
+//   child:
+// Align(
+//   child:
+// SizedBox(
+//   width:  156.96*fem,
+//   height:  158.11*fem,
+//   child:
+// Image.network(
+//   [Image url]
+//   fit:  BoxFit.cover,
+// ),
+// ),
+// ),
+// ),
+
+//
