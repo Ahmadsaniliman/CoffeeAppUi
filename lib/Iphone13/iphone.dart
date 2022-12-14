@@ -24,3 +24,12 @@ class IphoneScreen extends StatelessWidget {
     );
   }
 }
+
+class fffff extends StatelessWidget {
+  const fffff({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
