@@ -1,11 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:neww/Constants/colors.dart';
+import 'package:neww/Home/Components/bottom_image.dart';
+import 'package:neww/Home/Components/right_image.dart';
+import 'package:neww/Home/Components/second_bot.dart';
+import 'package:neww/Home/Components/texts.dart';
 
 class IphoneScreen extends StatelessWidget {
   const IphoneScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    double baseWidth = 371.450012207;
+    double fem = MediaQuery.of(context).size.width / baseWidth;
+    double ffem = fem * 0.97;
     return Scaffold(
+      backgroundColor: backgroundColor1,
       body: Container(
         height: double.infinity,
         width: double.infinity,
@@ -18,18 +27,27 @@ class IphoneScreen extends StatelessWidget {
           ),
         ),
         child: Stack(
-          children: const [],
+          children: [
+            // LeftImage(fem: fem),
+            RightImage(fem: fem),
+            Texts(fem: fem, ffem: ffem),
+            ScondBottomImage(fem: fem),
+            BottomImage(fem: fem),
+            Positioned(
+              top: 80.0,
+              left: 33.0,
+              child: Container(
+                height: 550,
+                width: 300.0,
+                color: backgroundColor1,
+                child: Image.asset(
+                  'assets/images/stackimage.png',
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
-  }
-}
-
-class fffff extends StatelessWidget {
-  const fffff({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
   }
 }
