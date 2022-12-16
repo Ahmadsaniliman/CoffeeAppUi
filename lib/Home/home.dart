@@ -30,7 +30,10 @@ class HomePage extends StatelessWidget {
         ),
         child: Stack(
           children: [
-            ArrowBack(fem: fem),
+            ArrowBack(
+              fem: fem,
+              press: () {},
+            ),
             LeftImage(fem: fem),
             RightImage(fem: fem),
             Texts(fem: fem, ffem: ffem),

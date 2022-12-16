@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:neww/Constants/colors.dart';
+import 'package:neww/Constants/routes.dart';
 import 'package:neww/Home/Components/arrow.dart';
 
 class Iphone149Page extends StatelessWidget {
@@ -25,7 +26,14 @@ class Iphone149Page extends StatelessWidget {
         ),
         child: Stack(
           children: [
-            ArrowBack(fem: fem),
+            ArrowBack(
+              fem: fem,
+              press: () {
+                Navigator.of(context).pushNamed(
+                  iphone176Route,
+                );
+              },
+            ),
             Positioned(
               // image6344521KE1 (1:762)
               right: 0 * fem,

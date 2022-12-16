@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:neww/Constants/routes.dart';
 
 class ArrowBack extends StatelessWidget {
   const ArrowBack({
     Key? key,
     required this.fem,
+    required this.press,
   }) : super(key: key);
 
-  final double fem;
+  final double? fem;
+  final Function()? press;
 
   @override
   Widget build(BuildContext context) {
@@ -15,21 +16,17 @@ class ArrowBack extends StatelessWidget {
       padding: const EdgeInsets.all(15.0),
       child: Positioned(
         child: InkWell(
-          onTap: () {
-            Navigator.of(context).pushNamed(
-              detailsRoute,
-            );
-          },
+          onTap: press,
           child: Container(
-            width: 70.56 * fem,
-            height: 49.79 * fem,
+            width: 70.56 * fem!,
+            height: 49.79 * fem!,
             decoration: BoxDecoration(
               color: const Color(0xffffffff),
-              borderRadius: BorderRadius.circular(32.2116775513 * fem),
+              borderRadius: BorderRadius.circular(32.2116775513 * fem!),
             ),
             child: const Center(
               child: Icon(
-                Icons.arrow_back,
+                Icons.arrow_forward,
               ),
             ),
           ),

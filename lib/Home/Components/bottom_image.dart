@@ -6,7 +6,7 @@ class BottomImage extends StatelessWidget {
     required this.fem,
   }) : super(key: key);
 
-  final double fem;
+  final double? fem;
 
   @override
   Widget build(BuildContext context) {
@@ -20,8 +20,8 @@ class BottomImage extends StatelessWidget {
       bottom: -130,
       child: Align(
         child: SizedBox(
-          width: 262.28 * fem,
-          height: 262.28 * fem,
+          width: 262.28 * fem!,
+          height: 262.28 * fem!,
           child: Image.asset(
             'assets/images/image4.png',
             // fit: BoxFit.contain,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:neww/Constants/colors.dart';
+import 'package:neww/Constants/routes.dart';
 import 'package:neww/Home/Components/arrow.dart';
 
 class Iphone176Page extends StatelessWidget {
@@ -25,12 +26,36 @@ class Iphone176Page extends StatelessWidget {
         ),
         child: Stack(
           children: [
-            ArrowBack(fem: fem),
+            Padding(
+              padding: const EdgeInsets.all(15.0),
+              child: Positioned(
+                child: InkWell(
+                  onTap: () {
+                    Navigator.of(context).pushNamed(
+                      iphone177Route,
+                    );
+                  },
+                  child: Container(
+                    width: 70.56 * fem,
+                    height: 49.79 * fem,
+                    decoration: BoxDecoration(
+                      color: const Color(0xffffffff),
+                      borderRadius: BorderRadius.circular(32.2116775513 * fem),
+                    ),
+                    child: const Center(
+                      child: Icon(
+                        Icons.arrow_forward,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
             Positioned(
               // rectangle2Zf (1:761)
               right: -20,
               //   left: 116.66796875 * fem,
-              top: 0 * fem,
+              top: 0,
               child: Align(
                 child: SizedBox(
                   width: 300.68 * fem,

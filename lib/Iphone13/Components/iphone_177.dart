@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:neww/Constants/colors.dart';
+import 'package:neww/Constants/routes.dart';
 import 'package:neww/Home/Components/arrow.dart';
 
 class Iphone177Screen extends StatelessWidget {
@@ -25,7 +26,36 @@ class Iphone177Screen extends StatelessWidget {
         ),
         child: Stack(
           children: [
-            ArrowBack(fem: fem),
+            Padding(
+              padding: const EdgeInsets.all(15.0),
+              child: Positioned(
+                child: GestureDetector(
+                  // onTap: () {
+                  //   Navigator.of(context).pushNamed(
+                  //     iphoneDetailsRoute,
+                  //   );
+                  // },
+                  onDoubleTap: () {
+                    Navigator.of(context).pushNamed(
+                      iphoneDetailsRoute,
+                    );
+                  },
+                  child: Container(
+                    width: 70.56 * fem,
+                    height: 49.79 * fem,
+                    decoration: BoxDecoration(
+                      color: const Color(0xffffffff),
+                      borderRadius: BorderRadius.circular(32.2116775513 * fem),
+                    ),
+                    child: const Center(
+                      child: Icon(
+                        Icons.arrow_forward,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
             Positioned(
               // image63445389rR (1:819)
               left: 0 * fem,
@@ -140,10 +170,17 @@ class Iphone177Screen extends StatelessWidget {
                 height: 50.0,
                 width: 120.0,
                 color: Colors.black.withOpacity(0.7),
-                child: const Center(
-                  child: Text(
-                    'Apple Pie',
-                    style: TextStyle(color: Colors.white),
+                child: Center(
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.of(context).pushNamed(
+                        iphone178Route,
+                      );
+                    },
+                    child: const Text(
+                      'Apple Pie',
+                      style: TextStyle(color: Colors.white),
+                    ),
                   ),
                 ),
               ),

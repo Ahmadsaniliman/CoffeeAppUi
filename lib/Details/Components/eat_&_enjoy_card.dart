@@ -96,7 +96,7 @@ class EatAndEnjoyCard extends StatelessWidget {
                           IconButton(
                             onPressed: () {
                               Navigator.of(context).pushNamed(
-                                cartRoute,
+                                iphone149Route,
                               );
                             },
                             icon: const Icon(

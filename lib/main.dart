@@ -4,6 +4,11 @@ import 'package:neww/Cart/cart.dart';
 import 'package:neww/Constants/routes.dart';
 import 'package:neww/Details/details.dart';
 import 'package:neww/Home/home.dart';
+import 'package:neww/Iphone13/Components/iphone_149.dart';
+import 'package:neww/Iphone13/Components/iphone_176.dart';
+import 'package:neww/Iphone13/Components/iphone_177.dart';
+import 'package:neww/Iphone13/Components/iphone_178.dart';
+import 'package:neww/Iphone13/Components/iphone_details.dart';
 import 'package:neww/Iphone13/iphone.dart';
 
 void main() {
@@ -25,6 +30,11 @@ class MyApp extends StatelessWidget {
         cartRoute: (context) => const CartViewPage(),
         detailsRoute: (context) => const DetailsPage(),
         middlePageRoute: (context) => const MiddlePageView(),
+        iphone149Route: (context) => const Iphone149Page(),
+        iphone176Route: (context) => const Iphone176Page(),
+        iphone177Route: (context) => const Iphone177Screen(),
+        iphone178Route: (context) => const Iphone178Screen(),
+        iphoneDetailsRoute: (context) => const IphoneDetails(),
       },
     );
   }
