@@ -4,8 +4,7 @@ import 'package:neww/Cart/cart.dart';
 import 'package:neww/Constants/routes.dart';
 import 'package:neww/Details/details.dart';
 import 'package:neww/Home/home.dart';
-
-import 'package:neww/Iphone13/Components/iphone_177.dart';
+import 'package:neww/Iphone13/iphone.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Coffee App',
       theme: ThemeData(),
-      home: const Iphone177Screen(),
+      home: const IphoneScreen(),
       routes: {
         homeRoute: (context) => const HomePage(),
         cartRoute: (context) => const CartViewPage(),
